@@ -1,0 +1,4 @@
+<launch>
+    <node name="wall_detector" pkg="rostest_example" type="wall_detector.py" />
+    <test test-name="wall_detector_test" pkg="rostest_example" type="wall_detector_test.py" />
+</launch>
